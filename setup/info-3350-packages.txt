@@ -9,7 +9,6 @@ lxml
 matplotlib
 networkx
 nltk
-nomkl
 numpy
 pandas
 pyldavis
