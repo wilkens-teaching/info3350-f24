@@ -7,7 +7,7 @@
 ### Staff and sections
 
 **Instructor:** [Matthew Wilkens](https://infosci.cornell.edu/content/Wilkens)<br>
-**PhD TAs:** [Federica Bologna](https://infosci.cornell.edu/content/bologna), [Kiara Liu](https://infosci.cornell.edu/content/liu-1), [Rosamond Thalken](https://infosci.cornell.edu/content/thalken)<br>
+**PhD TAs:** [Federica Bologna](https://infosci.cornell.edu/content/bologna), [Rosamond Thalken](https://infosci.cornell.edu/content/thalken)<br>
 **MPS TAs:** Ran Tao, Aaliyah Yang<br>
 **Undergrad TAs:** Lucas Li, Andrew Modrowsky, Elizabeth Moon
 
