@@ -32,9 +32,14 @@ def bayes_compare_language(l1, l2, features = None, ngram = 1, prior=.01, prior_
         l1 = [basic_sanitize(l) for l in l1]
         l2 = [basic_sanitize(l) for l in l2]
         if cv is None:
-            cv = CountVectorizer(decode_error = 'ignore', min_df = 10, max_df = .5, ngram_range=(1,ngram),
-                    binary = False,
-                    max_features = 15000)
+            cv = CountVectorizer(
+                decode_error = 'ignore', 
+                min_df = 10, 
+                max_df = .5, 
+                ngram_range=(1,ngram),
+                binary = False,
+                max_features = 15000
+            )
             cv.fit(l1+l2)
         counts_mat = cv.transform(l1+l2).toarray()
         vocab_size = len(cv.vocabulary_)
