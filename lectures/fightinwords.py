@@ -51,7 +51,11 @@ def bayes_compare_language(l1, l2, features = None, ngram = 1, prior=.01, prior_
     if type(prior) is float:
         priors = np.array([prior for i in range(vocab_size)])
     else:
-        priors = prior
+        #priors = prior
+        if type(prior) != np.ndarray:
+            priors = np.array(prior)
+        else:
+            priors = prior
     z_scores = np.empty(priors.shape[0])
     count_matrix = np.empty([2, vocab_size], dtype=np.float32)
     if features is None:
