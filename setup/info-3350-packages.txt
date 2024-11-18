@@ -17,6 +17,7 @@ requests
 scikit-image
 scikit-learn
 seaborn
+sentence-transformers
 shap
 spacy
 statsmodels
