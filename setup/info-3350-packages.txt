@@ -17,9 +17,15 @@ requests
 scikit-image
 scikit-learn
 seaborn
+sentence-transformers
+sentencepiece
 shap
 spacy
 statsmodels
 tqdm
 transformers[torch]
 umap-learn
+vegafusion
+vegafusion-python-embed
+vl-convert-python
+
